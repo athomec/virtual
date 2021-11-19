@@ -13171,6 +13171,9 @@ footer .footer-logo {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background-size: cover;
     background-attachment: fixed; }
+    @media (max-width: 768px) {
+      .section-build-bg {
+        background-size: 800px; } }
   .section-motor-bg {
     background: url(../images/bbg-line.svg) no-repeat, #FFFCD7;
     /* Old browsers */
@@ -13182,6 +13185,9 @@ footer .footer-logo {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background-size: cover;
     background-attachment: fixed; }
+    @media (max-width: 768px) {
+      .section-motor-bg {
+        background-size: 800px; } }
   .section-digital-bg {
     background: url(../images/bbg-line.svg) no-repeat, #81d8e0;
     /* Old browsers */
@@ -13193,6 +13199,9 @@ footer .footer-logo {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background-size: cover;
     background-attachment: fixed; }
+    @media (max-width: 768px) {
+      .section-digital-bg {
+        background-size: 800px; } }
   .section-mechanical-bg {
     background: url(../images/bbg-line.svg) no-repeat, #f2d9f3;
     /* Old browsers */
@@ -13204,6 +13213,9 @@ footer .footer-logo {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background-size: cover;
     background-attachment: fixed; }
+    @media (max-width: 768px) {
+      .section-mechanical-bg {
+        background-size: 800px; } }
 
 .section-image {
   width: 375px; }
