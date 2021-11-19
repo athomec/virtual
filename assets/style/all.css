@@ -12743,6 +12743,9 @@ ol {
       .navbar .navbar-brand {
         width: 233px;
         height: 25px; } }
+    @media (max-width: 768px) {
+      .navbar .navbar-brand {
+        width: 220px; } }
   .navbar .nav-item {
     border-bottom: 1px solid #f6ae35; }
     .navbar .nav-item:last-child {
@@ -13114,6 +13117,7 @@ footer .footer-logo {
   top: 58%;
   width: 458px;
   height: 351px;
+  z-index: 2;
   -webkit-animation: obj2 8s infinite;
           animation: obj2 8s infinite;
   cursor: pointer; }
@@ -13253,6 +13257,13 @@ footer .footer-logo {
           -ms-flex-pack: justify;
               justify-content: space-between;
       margin-bottom: 10px; } }
+  .btn-action .btn-icon {
+    margin-right: 15px;
+    /*ipnone6*/ }
+    @media (max-width: 375px) {
+      .btn-action .btn-icon {
+        margin-right: 10px;
+        width: 35px; } }
 
 /*-----------------圖片樣式---------------------*/
 .text-round-img {
@@ -13298,6 +13309,9 @@ footer .footer-logo {
         border-width: 30px 0 0 30px;
         right: 30px;
         top: -30px; } }
+  @media (max-width: 768px) {
+    .dialogue-box {
+      border-radius: 25px; } }
 
 .carousel-txt {
   background: rgba(102, 102, 102, 0.9);
@@ -13314,7 +13328,10 @@ footer .footer-logo {
       position: relative; } }
 
 .carousel-control-next, .carousel-control-prev {
-  width: 10%; }
+  width: 6%; }
+  @media (max-width: 768px) {
+    .carousel-control-next, .carousel-control-prev {
+      width: 14%; } }
 
 /*------------------------覆蓋設定開始----------------------------*/
 /*bootstrap設定*/
