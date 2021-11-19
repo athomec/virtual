@@ -13161,13 +13161,13 @@ footer .footer-logo {
     .section {
       padding: 40px 0 60px 0; } }
   .section-build-bg {
-    background: url(../images/bbg-line.svg) no-repeat, #FDE123;
+    background: url(../images/bbg-line.svg), #FDE123;
     /* Old browsers */
     /* FF3.6-15 */
     /* Chrome10-25,Safari5.1-6 */
-    background: url(../images/bbg-line.svg) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#FDE123), to(#FFFCD7));
-    background: url(../images/bbg-line.svg) no-repeat, -o-linear-gradient(top, #FDE123 0%, #FFFCD7 100%);
-    background: url(../images/bbg-line.svg) no-repeat, linear-gradient(to bottom, #FDE123 0%, #FFFCD7 100%);
+    background: url(../images/bbg-line.svg), -webkit-gradient(linear, left top, left bottom, from(#FDE123), to(#FFFCD7));
+    background: url(../images/bbg-line.svg), -o-linear-gradient(top, #FDE123 0%, #FFFCD7 100%);
+    background: url(../images/bbg-line.svg), linear-gradient(to bottom, #FDE123 0%, #FFFCD7 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background-size: cover;
     background-attachment: fixed; }
