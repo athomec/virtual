@@ -13006,6 +13006,10 @@ footer .footer-logo {
   @media (max-width: 1650px) {
     .banner-box {
       background-size: 1800px, contain; } }
+  @media (max-width: 768px) {
+    .banner-box {
+      background-position: center 120px,left top;
+      background-size: 1000px, contain; } }
 
 .main {
   position: relative;
@@ -13173,7 +13177,7 @@ footer .footer-logo {
     background-attachment: fixed; }
     @media (max-width: 768px) {
       .section-build-bg {
-        background-size: 800px; } }
+        background-size: 1500px; } }
   .section-motor-bg {
     background: url(../images/bbg-line.svg) no-repeat, #FFFCD7;
     /* Old browsers */
@@ -13187,7 +13191,7 @@ footer .footer-logo {
     background-attachment: fixed; }
     @media (max-width: 768px) {
       .section-motor-bg {
-        background-size: 800px; } }
+        background-size: 1500px; } }
   .section-digital-bg {
     background: url(../images/bbg-line.svg) no-repeat, #81d8e0;
     /* Old browsers */
@@ -13201,7 +13205,7 @@ footer .footer-logo {
     background-attachment: fixed; }
     @media (max-width: 768px) {
       .section-digital-bg {
-        background-size: 800px; } }
+        background-size: 1500px; } }
   .section-mechanical-bg {
     background: url(../images/bbg-line.svg) no-repeat, #f2d9f3;
     /* Old browsers */
@@ -13215,7 +13219,7 @@ footer .footer-logo {
     background-attachment: fixed; }
     @media (max-width: 768px) {
       .section-mechanical-bg {
-        background-size: 800px; } }
+        background-size: 1500px; } }
 
 .section-image {
   width: 375px; }
