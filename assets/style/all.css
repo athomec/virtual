@@ -13179,13 +13179,13 @@ footer .footer-logo {
       .section-build-bg {
         background-size: 1500px; } }
   .section-motor-bg {
-    background: url(../images/bbg-line.svg) no-repeat, #FFFCD7;
+    background: url(../images/bbg-line.svg), #FFFCD7;
     /* Old browsers */
     /* FF3.6-15 */
     /* Chrome10-25,Safari5.1-6 */
-    background: url(../images/bbg-line.svg) no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(20%, #FFFCD7), to(#81d8e0));
-    background: url(../images/bbg-line.svg) no-repeat, -o-linear-gradient(top, #FFFCD7 20%, #81d8e0 100%);
-    background: url(../images/bbg-line.svg) no-repeat, linear-gradient(to bottom, #FFFCD7 20%, #81d8e0 100%);
+    background: url(../images/bbg-line.svg), -webkit-gradient(linear, left top, left bottom, color-stop(20%, #FFFCD7), to(#81d8e0));
+    background: url(../images/bbg-line.svg), -o-linear-gradient(top, #FFFCD7 20%, #81d8e0 100%);
+    background: url(../images/bbg-line.svg), linear-gradient(to bottom, #FFFCD7 20%, #81d8e0 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background-size: cover;
     background-attachment: fixed; }
@@ -13193,13 +13193,13 @@ footer .footer-logo {
       .section-motor-bg {
         background-size: 1500px; } }
   .section-digital-bg {
-    background: url(../images/bbg-line.svg) no-repeat, #81d8e0;
+    background: url(../images/bbg-line.svg), #81d8e0;
     /* Old browsers */
     /* FF3.6-15 */
     /* Chrome10-25,Safari5.1-6 */
-    background: url(../images/bbg-line.svg) no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(20%, #81d8e0), to(#f2d9f3));
-    background: url(../images/bbg-line.svg) no-repeat, -o-linear-gradient(top, #81d8e0 20%, #f2d9f3 100%);
-    background: url(../images/bbg-line.svg) no-repeat, linear-gradient(to bottom, #81d8e0 20%, #f2d9f3 100%);
+    background: url(../images/bbg-line.svg), -webkit-gradient(linear, left top, left bottom, color-stop(20%, #81d8e0), to(#f2d9f3));
+    background: url(../images/bbg-line.svg), -o-linear-gradient(top, #81d8e0 20%, #f2d9f3 100%);
+    background: url(../images/bbg-line.svg), linear-gradient(to bottom, #81d8e0 20%, #f2d9f3 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background-size: cover;
     background-attachment: fixed; }
@@ -13207,13 +13207,13 @@ footer .footer-logo {
       .section-digital-bg {
         background-size: 1500px; } }
   .section-mechanical-bg {
-    background: url(../images/bbg-line.svg) no-repeat, #f2d9f3;
+    background: url(../images/bbg-line.svg), #f2d9f3;
     /* Old browsers */
     /* FF3.6-15 */
     /* Chrome10-25,Safari5.1-6 */
-    background: url(../images/bbg-line.svg) no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(20%, #f2d9f3), to(#ffdcdc));
-    background: url(../images/bbg-line.svg) no-repeat, -o-linear-gradient(top, #f2d9f3 20%, #ffdcdc 100%);
-    background: url(../images/bbg-line.svg) no-repeat, linear-gradient(to bottom, #f2d9f3 20%, #ffdcdc 100%);
+    background: url(../images/bbg-line.svg), -webkit-gradient(linear, left top, left bottom, color-stop(20%, #f2d9f3), to(#ffdcdc));
+    background: url(../images/bbg-line.svg), -o-linear-gradient(top, #f2d9f3 20%, #ffdcdc 100%);
+    background: url(../images/bbg-line.svg), linear-gradient(to bottom, #f2d9f3 20%, #ffdcdc 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background-size: cover;
     background-attachment: fixed; }
