@@ -10931,9 +10931,9 @@ ol {
     color: #edabab; }
 
 .link-danger-color {
-  color: #F04657; }
+  color: #e2606d; }
   .link-danger-color:hover {
-    color: #f47582; }
+    color: #ea8b95; }
 
 .link-danger-light-color {
   color: #F78177; }
@@ -11027,7 +11027,7 @@ ol {
   color: #e48181 !important; }
 
 .danger-color {
-  color: #F04657 !important; }
+  color: #e2606d !important; }
 
 .danger-light-color {
   color: #F78177 !important; }
@@ -11184,7 +11184,7 @@ ol {
   background: #e48181 !important; }
 
 .bg-danger-color {
-  background: #F04657 !important; }
+  background: #e2606d !important; }
 
 .bg-danger-light-color {
   background: #F78177 !important; }
@@ -11380,13 +11380,13 @@ ol {
 
 .btn-dark-danger-color {
   color: #fff !important;
-  background: #F04657 !important;
-  border: 1px solid #F04657;
+  background: #e2606d !important;
+  border: 1px solid #e2606d;
   padding: 4px 16px;
   border-radius: 4px; }
   .btn-dark-danger-color:hover {
     color: #fff !important;
-    background: #ee2e42 !important; }
+    background: #de4a59 !important; }
 
 .btn-dark-danger-light-color {
   color: #fff !important;
@@ -11549,7 +11549,7 @@ ol {
   border-color: #e48181 !important; }
 
 .bd-danger-color {
-  border-color: #F04657 !important; }
+  border-color: #e2606d !important; }
 
 .bd-danger-light-color {
   border-color: #F78177 !important; }
@@ -11699,8 +11699,6 @@ ol {
           justify-content: space-between;
   border-left-width: 5px !important;
   /*ipnone6*/ }
-  .list-group-item:hover {
-    background: #FFFCD7; }
   @media (max-width: 375px) {
     .list-group-item {
       -webkit-box-orient: vertical;
@@ -11709,7 +11707,11 @@ ol {
               flex-direction: column;
       -webkit-box-align: start;
           -ms-flex-align: start;
-              align-items: start; } }
+              align-items: start; }
+      .list-group-item:first-child {
+        display: none; } }
+  .list-group-item:hover {
+    background: #FFFCD7; }
 
 .list-badge {
   border-left: 1px solid #666;
@@ -11802,7 +11804,7 @@ ol {
 
 .table-bd-danger-color th,
 .table-bd-danger-color td {
-  border-color: #F04657; }
+  border-color: #e2606d; }
 
 .table-bd-danger-light-color th,
 .table-bd-danger-light-color td {
@@ -13002,10 +13004,14 @@ footer .footer-logo {
 .banner-box {
   background: url(../images/main-bg.svg) no-repeat center 0, url(../images/index-bg.png) repeat-x fixed left top #FDE123;
   background-size: 1920px, contain;
-  padding-top: 64px; }
+  padding-top: 64px;
+  height: 100vh; }
   @media (max-width: 1650px) {
     .banner-box {
       background-size: 1800px, contain; } }
+  @media (max-width: 1200px) {
+    .banner-box {
+      height: auto; } }
   @media (max-width: 768px) {
     .banner-box {
       background-position: center 120px,left top;
@@ -13052,6 +13058,18 @@ footer .footer-logo {
     .title {
       left: calc(50% - 250px);
       width: 500px; } }
+
+.scroll {
+  left: calc(50% - 25px);
+  bottom: -20px;
+  width: 50px;
+  opacity: 0.6;
+  cursor: pointer; }
+  .scroll:hover {
+    opacity: 1; }
+  @media (max-width: 768px) {
+    .scroll {
+      display: none; } }
 
 .building {
   left: calc(50% - 250px);
@@ -13274,12 +13292,18 @@ footer .footer-logo {
               justify-content: space-between;
       margin-bottom: 10px; } }
   .btn-action .btn-icon {
+    width: 50px;
     margin-right: 15px;
     /*ipnone6*/ }
     @media (max-width: 375px) {
       .btn-action .btn-icon {
         margin-right: 10px;
         width: 35px; } }
+  .btn-action .btn-icon-start {
+    width: 75px; }
+    @media (max-width: 768px) {
+      .btn-action .btn-icon-start {
+        width: 60px; } }
 
 /*-----------------圖片樣式---------------------*/
 .text-round-img {
@@ -13343,11 +13367,38 @@ footer .footer-logo {
       width: 100%;
       position: relative; } }
 
+.img-slider {
+  position: relative; }
+  .img-slider .carousel-control-next {
+    right: 10px; }
+    @media (max-width: 768px) {
+      .img-slider .carousel-control-next {
+        right: -10px; } }
+    @media (max-width: 576px) {
+      .img-slider .carousel-control-next {
+        right: 5px; } }
+  .img-slider .carousel-control-prev {
+    left: 10px; }
+    @media (max-width: 768px) {
+      .img-slider .carousel-control-prev {
+        left: -10px; } }
+    @media (max-width: 576px) {
+      .img-slider .carousel-control-prev {
+        left: 5px; } }
+
 .carousel-control-next, .carousel-control-prev {
-  width: 6%; }
+  color: #333;
+  opacity: 0.5;
+  width: 30px; }
+  .carousel-control-next:hover, .carousel-control-next:focus, .carousel-control-prev:hover, .carousel-control-prev:focus {
+    color: #333;
+    opacity: 1; }
   @media (max-width: 768px) {
     .carousel-control-next, .carousel-control-prev {
-      width: 14%; } }
+      width: 60px; } }
+  @media (max-width: 576px) {
+    .carousel-control-next, .carousel-control-prev {
+      width: 30px; } }
 
 /*------------------------覆蓋設定開始----------------------------*/
 /*bootstrap設定*/
