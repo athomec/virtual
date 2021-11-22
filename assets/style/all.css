@@ -13386,6 +13386,10 @@ footer .footer-logo {
       .img-slider .carousel-control-prev {
         left: 5px; } }
 
+@media (max-width: 576px) {
+  .img-slider-caption .carousel-control-next, .img-slider-caption .carousel-control-prev {
+    -webkit-filter: brightness(5); } }
+
 .carousel-control-next, .carousel-control-prev {
   color: #333;
   opacity: 0.5;
