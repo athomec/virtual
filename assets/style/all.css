@@ -11077,37 +11077,73 @@ ol {
 .font-xxxl {
   font-size: 5em !important; }
 
+@media (max-width: 1200px) {
+  .font-xxxs-lg {
+    font-size: 0.7em !important; } }
+
 @media (max-width: 768px) {
   .font-xxxs-md {
     font-size: 0.7em !important; } }
+
+@media (max-width: 1200px) {
+  .font-xxs-lg {
+    font-size: 0.8em !important; } }
 
 @media (max-width: 768px) {
   .font-xxs-md {
     font-size: 0.8em !important; } }
 
+@media (max-width: 1200px) {
+  .font-xs-lg {
+    font-size: 0.9em !important; } }
+
 @media (max-width: 768px) {
   .font-xs-md {
     font-size: 0.9em !important; } }
+
+@media (max-width: 1200px) {
+  .font-sm-lg {
+    font-size: 1em !important; } }
 
 @media (max-width: 768px) {
   .font-sm-md {
     font-size: 1em !important; } }
 
+@media (max-width: 1200px) {
+  .font-md-lg {
+    font-size: 1.2em !important; } }
+
 @media (max-width: 768px) {
   .font-md-md {
     font-size: 1.2em !important; } }
+
+@media (max-width: 1200px) {
+  .font-lg-lg {
+    font-size: 1.4em !important; } }
 
 @media (max-width: 768px) {
   .font-lg-md {
     font-size: 1.4em !important; } }
 
+@media (max-width: 1200px) {
+  .font-xl-lg {
+    font-size: 1.8em !important; } }
+
 @media (max-width: 768px) {
   .font-xl-md {
     font-size: 1.8em !important; } }
 
+@media (max-width: 1200px) {
+  .font-xxl-lg {
+    font-size: 2.5em !important; } }
+
 @media (max-width: 768px) {
   .font-xxl-md {
     font-size: 2.5em !important; } }
+
+@media (max-width: 1200px) {
+  .font-xxxl-lg {
+    font-size: 5em !important; } }
 
 @media (max-width: 768px) {
   .font-xxxl-md {
@@ -13008,9 +13044,7 @@ footer .footer-logo {
   height: 100vh; }
   @media (max-width: 1650px) {
     .banner-box {
-      background-size: 1800px, contain; } }
-  @media (max-width: 1200px) {
-    .banner-box {
+      background-size: 1800px, contain;
       height: auto; } }
   @media (max-width: 768px) {
     .banner-box {
