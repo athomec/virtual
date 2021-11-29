@@ -10945,6 +10945,21 @@ ol {
   .link-danger-xlight-color:hover {
     color: white; }
 
+.link-steady-color {
+  color: #9f9ee9; }
+  .link-steady-color:hover {
+    color: #c8c8f2; }
+
+.link-steady-light-color {
+  color: #bfbef5; }
+  .link-steady-light-color:hover {
+    color: #ebeafc; }
+
+.link-steady-dark-color {
+  color: #777dd8; }
+  .link-steady-dark-color:hover {
+    color: #9fa3e3; }
+
 .link-white {
   color: #fff; }
   .link-white:hover {
@@ -11034,6 +11049,15 @@ ol {
 
 .danger-xlight-color {
   color: #ffedeb !important; }
+
+.steady-color {
+  color: #9f9ee9 !important; }
+
+.steady-light-color {
+  color: #bfbef5 !important; }
+
+.steady-dark-color {
+  color: #777dd8 !important; }
 
 .white {
   color: #fff !important; }
@@ -11227,6 +11251,15 @@ ol {
 
 .bg-danger-xlight-color {
   background: #ffedeb !important; }
+
+.bg-steady-color {
+  background: #9f9ee9 !important; }
+
+.bg-steady-light-color {
+  background: #bfbef5 !important; }
+
+.bg-steady-dark-color {
+  background: #777dd8 !important; }
 
 .bg-white {
   background: #fff !important; }
@@ -11444,6 +11477,36 @@ ol {
     color: #fff !important;
     background: #ffd6d2 !important; }
 
+.btn-dark-steady-color {
+  color: #fff !important;
+  background: #9f9ee9 !important;
+  border: 1px solid #9f9ee9;
+  padding: 4px 16px;
+  border-radius: 4px; }
+  .btn-dark-steady-color:hover {
+    color: #fff !important;
+    background: #8a89e4 !important; }
+
+.btn-dark-steady-light-color {
+  color: #fff !important;
+  background: #bfbef5 !important;
+  border: 1px solid #bfbef5;
+  padding: 4px 16px;
+  border-radius: 4px; }
+  .btn-dark-steady-light-color:hover {
+    color: #fff !important;
+    background: #a9a8f2 !important; }
+
+.btn-dark-steady-dark-color {
+  color: #fff !important;
+  background: #777dd8 !important;
+  border: 1px solid #777dd8;
+  padding: 4px 16px;
+  border-radius: 4px; }
+  .btn-dark-steady-dark-color:hover {
+    color: #fff !important;
+    background: #636ad2 !important; }
+
 .btn-dark-white {
   color: #fff !important;
   background: #fff !important;
@@ -11592,6 +11655,15 @@ ol {
 
 .bd-danger-xlight-color {
   border-color: #ffedeb !important; }
+
+.bd-steady-color {
+  border-color: #9f9ee9 !important; }
+
+.bd-steady-light-color {
+  border-color: #bfbef5 !important; }
+
+.bd-steady-dark-color {
+  border-color: #777dd8 !important; }
 
 .bd-white {
   border-color: #fff !important; }
@@ -11744,7 +11816,7 @@ ol {
       -webkit-box-align: start;
           -ms-flex-align: start;
               align-items: start; }
-      .list-group-item:first-child {
+      .list-group-item.list-group-header {
         display: none; } }
   .list-group-item:hover {
     background: #FFFCD7; }
@@ -11849,6 +11921,18 @@ ol {
 .table-bd-danger-xlight-color th,
 .table-bd-danger-xlight-color td {
   border-color: #ffedeb; }
+
+.table-bd-steady-color th,
+.table-bd-steady-color td {
+  border-color: #9f9ee9; }
+
+.table-bd-steady-light-color th,
+.table-bd-steady-light-color td {
+  border-color: #bfbef5; }
+
+.table-bd-steady-dark-color th,
+.table-bd-steady-dark-color td {
+  border-color: #777dd8; }
 
 .table-bd-white th,
 .table-bd-white td {
@@ -13271,6 +13355,20 @@ footer .footer-logo {
     background-attachment: fixed; }
     @media (max-width: 768px) {
       .section-mechanical-bg {
+        background-size: 1500px; } }
+  .section-textbook-bg {
+    background: url(../images/bbg-line.svg), #bfbef5;
+    /* Old browsers */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    background: url(../images/bbg-line.svg), -webkit-gradient(linear, left top, left bottom, color-stop(20%, #bfbef5), to(#FFFCD7));
+    background: url(../images/bbg-line.svg), -o-linear-gradient(top, #bfbef5 20%, #FFFCD7 100%);
+    background: url(../images/bbg-line.svg), linear-gradient(to bottom, #bfbef5 20%, #FFFCD7 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-size: cover;
+    background-attachment: fixed; }
+    @media (max-width: 768px) {
+      .section-textbook-bg {
         background-size: 1500px; } }
 
 .section-image {
