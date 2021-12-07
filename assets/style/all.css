@@ -10885,6 +10885,11 @@ ol {
   .link-tertiary-dark-color:hover {
     color: #83b319; }
 
+.link-tertiary-light-color {
+  color: #bfdb82; }
+  .link-tertiary-light-color:hover {
+    color: #d3e6aa; }
+
 .link-assist-color {
   color: #5F4E00; }
   .link-assist-color:hover {
@@ -11013,6 +11018,9 @@ ol {
 
 .tertiary-dark-color {
   color: #628613 !important; }
+
+.tertiary-light-color {
+  color: #bfdb82 !important; }
 
 .assist-color {
   color: #5F4E00 !important; }
@@ -11216,6 +11224,9 @@ ol {
 .bg-tertiary-dark-color {
   background: #628613 !important; }
 
+.bg-tertiary-light-color {
+  background: #bfdb82 !important; }
+
 .bg-assist-color {
   background: #5F4E00 !important; }
 
@@ -11356,6 +11367,16 @@ ol {
   .btn-dark-tertiary-dark-color:hover {
     color: #fff !important;
     background: #527010 !important; }
+
+.btn-dark-tertiary-light-color {
+  color: #fff !important;
+  background: #bfdb82 !important;
+  border: 1px solid #bfdb82;
+  padding: 4px 16px;
+  border-radius: 4px; }
+  .btn-dark-tertiary-light-color:hover {
+    color: #fff !important;
+    background: #b5d56e !important; }
 
 .btn-dark-assist-color {
   color: #fff !important;
@@ -11620,6 +11641,9 @@ ol {
 .bd-tertiary-dark-color {
   border-color: #628613 !important; }
 
+.bd-tertiary-light-color {
+  border-color: #bfdb82 !important; }
+
 .bd-assist-color {
   border-color: #5F4E00 !important; }
 
@@ -11873,6 +11897,10 @@ ol {
 .table-bd-tertiary-dark-color th,
 .table-bd-tertiary-dark-color td {
   border-color: #628613; }
+
+.table-bd-tertiary-light-color th,
+.table-bd-tertiary-light-color td {
+  border-color: #bfdb82; }
 
 .table-bd-assist-color th,
 .table-bd-assist-color td {
@@ -13166,10 +13194,9 @@ footer .footer-logo {
         zoom: 0.6; } }
 
 .title {
-  left: calc(50% - 289px);
-  top: 0;
-  width: 578px;
-  height: 169px;
+  left: calc(50% - 325px);
+  top: -30px;
+  width: 650px;
   z-index: 1;
   /*ipnone6*/ }
   @media (max-width: 375px) {
@@ -13355,6 +13382,20 @@ footer .footer-logo {
     background-attachment: fixed; }
     @media (max-width: 768px) {
       .section-mechanical-bg {
+        background-size: 1500px; } }
+  .section-map-bg {
+    background: url(../images/bbg-line.svg), #bfdb82;
+    /* Old browsers */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    background: url(../images/bbg-line.svg), -webkit-gradient(linear, left top, left bottom, color-stop(20%, #bfdb82), to(#FFFCD7));
+    background: url(../images/bbg-line.svg), -o-linear-gradient(top, #bfdb82 20%, #FFFCD7 100%);
+    background: url(../images/bbg-line.svg), linear-gradient(to bottom, #bfdb82 20%, #FFFCD7 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-size: cover;
+    background-attachment: fixed; }
+    @media (max-width: 768px) {
+      .section-map-bg {
         background-size: 1500px; } }
   .section-textbook-bg {
     background: url(../images/bbg-line.svg), #bfbef5;
